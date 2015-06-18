@@ -34,7 +34,8 @@ module.exports = AmpView.extend({
         title: 'string',
         description: 'string',
         closeText: ['string', false, 'Close'],
-        contentView: 'view'
+        contentView: 'view',
+        modalClass: 'string'
     },
 
     // Bind our properties to the element.
@@ -42,6 +43,10 @@ module.exports = AmpView.extend({
         title: '[data-hook="title"]',
         description: '[data-hook="description"]',
         closeText: '[data-hook="close-text"]',
+        modalClass: {
+            type: 'class',
+            selector: '.modal-body'
+        },
         contentView: {
             type: function(el, val, previousVal) {
                 if (previousVal) {
