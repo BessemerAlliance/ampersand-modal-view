@@ -1,5 +1,5 @@
 {
-  "name": "@ba/ampersand-modal-view",
+  "name": "@voyant/ampersand-modal-view",
   "version": "1.2.1",
   "description": "Modal view for Ampersand.js",
   "main": "index.js",
