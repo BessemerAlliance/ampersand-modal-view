@@ -154,7 +154,8 @@ module.exports = AmpView.extend({
         container.style.overflow = 'hidden';
 
         // Don't override height if minHeight is already set
-        if (container.style.minHeight !== '100%') {
+        var minHeight = window.getComputedStyle(container).minHeight;
+        if (minHeight !== '100%') {
             container.style.height = '100%';
         }
 
