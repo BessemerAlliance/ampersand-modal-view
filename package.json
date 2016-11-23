@@ -18,6 +18,6 @@
   "repository": "https://github.com/BessemerAlliance/ampersand-modal-view",
   "license": "MIT",
   "dependencies": {
-    "ampersand-view": "^9.0.0"
+    "ampersand-view": "^10.0.0"
   }
 }
